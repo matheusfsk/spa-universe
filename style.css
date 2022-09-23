@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.backgroundHome .home {
+  color: #fff;
+  font-weight: 700;
+}
+
+.backgroundHome {
+  background-image: url(./images/mountains-universe-1.png);
+}
+
+.backgroundUniverse .universe {
+  color: #fff;
+  font-weight: 700;
+}
+
+.backgroundUniverse {
+  background-image: url(./images/mountains-universe02.png);
+}
+
+.backgroundExplore .explore {
+  color: #fff;
+  font-weight: 700;
+}
+
+.backgroundExplore {
+  background-image: url(./images/mountains-universe-3.png);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 72px;
+  padding-bottom: 40px;
+  gap: 32px;
+}
+a {
+  color: #c4c4cc;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 172px;
+}
+
+main h1 {
+  color: #e1e1e6;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 8px;
+  background: transparent;
+  color: #fff;
+  margin-top: 24px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+button:hover {
+  background: #fff;
+  color: #02799d;
+  cursor: pointer;
+}
+
+.divUniverse h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  padding-bottom: 16px;
+}
+
+.divUniverse {
+  color: #e1e1e6;
+  font-family: "Roboto", sans-serif;
+  width: 715px;
+  height: 181px;
+
+  margin-top: 63px;
+  padding-left: 102px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.divExplore h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  padding-bottom: 16px;
+}
+
+.divExplore {
+  color: #e1e1e6;
+  font-family: "Roboto", sans-serif;
+  width: 745px;
+  height: 181px;
+
+  margin-top: 63px;
+  padding-left: 102px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+}
